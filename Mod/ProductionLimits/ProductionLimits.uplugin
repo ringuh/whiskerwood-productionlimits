@@ -1,0 +1,7 @@
+{
+	"Name": "ProductionLimits",
+	"Description": "Production Limit Profiles: one-click profiles (Initial, Midgame, Advanced and your own) beside the Production Limits window. Own profiles go in Saved/mods/ProductionLimitsConfig/ProductionLimits.txt.",
+	"Version": "1.0",
+	"CreatedBy": "rinku",
+	"EngineVersion": "5.8"
+}

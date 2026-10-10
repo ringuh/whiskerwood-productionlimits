@@ -1,0 +1,55 @@
+"workshopitem"
+{
+	"appid"		"2489330"
+	"publishedfileid"		"0"
+	"contentfolder"		"E:\modding\whiskerwood-productionlimits\workshop\content"
+	"previewfile"		"E:\modding\whiskerwood-productionlimits\docs\screenshot.png"
+	"title"		"Production Limit Profiles"
+	"description"		"[b]Set all your production limits with one click.[/b]
+
+[h2]Features[/h2]
+[list]
+[*]A profile list beside the Production Limits window: Initial, Midgame, Advanced, No limits
+[*]Initial, Midgame and Advanced are complete setups for the stages of a colony; No limits clears everything
+[*]Make your own profiles, or replace or remove the built-in ones, in a text file (see below)
+[*]Uses the window's own limit buttons, so nothing is patched and saves stay normal
+[*]Can be switched off under Settings - Mods
+[*]Works while paused, and does nothing in the background
+[/list]
+
+[h2]Your own profiles[/h2]
+[olist]
+[*]Create the folder %localappdata%\Whiskerwood\Saved\mods\ProductionLimitsConfig
+[*]Save a text file named ProductionLimits.txt there (not ProductionLimits.txt.txt)
+[*]Write a [Profile name] line, then one  what = limit  per line
+[*]Load your save
+[/olist]
+[code]
+[Farm only]       ; a new button
+* = off           ; clear every limit first
+wheat = 200
+@rawFood = 2500   ; a whole category
+
+[Initial]         ; same name as a built-in: replaces it
+* = off
+berries = 2500
+
+[Advanced]        ; nothing under it: removes that button
+[/code]
+[list]
+[*][b]what[/b]: a resource id (wood, planks, copperore ...), @category (@rawFood, @ore, @refined, @tools ...) or * for everything
+[*][b]limit[/b]: a number (0 allowed), or off for no limit
+[*]A profile changes only what it lists; start it with * = off to make it a complete setup
+[*]Lines apply top to bottom, a later line wins: @ore = 100 then goldore = off
+[*]; or # starts a comment; case and spaces don't matter
+[/list]
+The full list of resource ids, categories and the built-in profiles (to copy and edit): [url=https://github.com/ringuh/whiskerwood-productionlimits/blob/main/docs/ProductionLimits-defaults.txt]defaults file on GitHub[/url].
+
+Production limits need an assigned administrator; without one the game ignores the changes.
+
+[h2]Source[/h2]
+[url=https://github.com/ringuh/whiskerwood-productionlimits]GitHub[/url]
+
+Created using the [url=https://github.com/Whiskerwood-Modding/Whiskerwood-Project]Whiskerwood modkit[/url]."
+	"changenote"		"1.0: first release."
+}
