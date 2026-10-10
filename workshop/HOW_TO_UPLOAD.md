@@ -11,4 +11,4 @@ Whiskerwood has no in-game uploader; the scripts use Valve's SteamCMD (`E:\moddi
 5. The first upload writes the new item id into `"publishedfileid"` in the .vdf - commit that change,
    and check the item's visibility on its Workshop page. Later updates: same steps, new changenote.
 
-The preview image is `docs/screenshot.png`.
+The preview image is `docs/screenshot.jpg` (Steam refuses previews over 1 MB with "Limit exceeded": use a JPG).

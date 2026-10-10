@@ -2,7 +2,7 @@
 
 A quality-of-life mod for [Whiskerwood](https://store.steampowered.com/app/2489330/Whiskerwood/).
 
-![Limit Profiles beside the Production Limits window](docs/screenshot.png)
+![Limit Profiles beside the Production Limits window](docs/screenshot.jpg)
 
 The Production Limits window makes you click + and − on every resource, and your limits change as the colony grows. This mod adds a **Limit Profiles** list beside the window: *Initial*, *Midgame*, *Advanced*, *No limits*, plus **your own profiles**. One click sets every limit in the profile.
 
